@@ -6,7 +6,6 @@
 
   <div class="card">
     <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
-      <!-- Name Field -->
       <div class="form-group">
         <label for="name" class="form-label">Name</label>
         <input 
@@ -23,7 +22,6 @@
         </div>
       </div>
 
-      <!-- Email Field -->
       <div class="form-group">
         <label for="email" class="form-label">Email</label>
         <input 
@@ -39,7 +37,6 @@
         </div>
       </div>
 
-      <!-- Department Field -->
       <div class="form-group">
         <label for="department" class="form-label">Department</label>
         <select 
@@ -59,7 +56,6 @@
         </div>
       </div>
 
-      <!-- Action Buttons -->
       <div class="form-actions">
         <button type="button" class="btn-cancel" routerLink="/employees">Cancel</button>
         <button type="submit" class="btn-primary">Save Employee</button>
