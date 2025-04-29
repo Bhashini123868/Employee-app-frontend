@@ -1,1 +1,20 @@
-<p>header works!</p>
+<header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a routerLink="/">
+          <span class="logo-text">E M S</span>
+          <span class="logo-subtitle">Employee Management System</span>
+        </a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a routerLink="/employees" routerLinkActive="active" class="nav-link">Employees</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/add-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>

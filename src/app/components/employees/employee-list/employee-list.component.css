@@ -1,0 +1,79 @@
+.employee-management-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  }
+  
+  .employee-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  
+  .add-employee-btn {
+    background-color: #112240;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .add-employee-btn:hover {
+    background-color: #0a192f;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fafbfc;
+  }
+  
+  .employee-table th, .employee-table td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .employee-table th {
+    background: #f3f4f6;
+    font-weight: 600;
+  }
+  
+  .employee-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 18px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    transition:  0.15s;
+  }
+  
+  .edit-btn {
+    color: #2563eb;
+  }
+  
+  .edit-btn:hover {
+    background: #e0e7ff;
+  }
+  
+  .delete-btn {
+    color: #dc2626;
+  }
+  
+  .delete-btn:hover {
+    background: #fee2e2;
+  }
+  

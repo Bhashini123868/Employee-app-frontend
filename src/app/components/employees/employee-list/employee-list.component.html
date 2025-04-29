@@ -1,1 +1,39 @@
-<p>employee-list works!</p>
+<div class="employee-management-container">
+    <h2>Employee Management</h2>
+    <div class="employee-list-header">
+      <h3>Employee List</h3>
+      <button class="add-employee-btn" routerLink="/add-employee">Add New Employee</button>
+    </div>
+    <table class="employee-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Department</th>
+          <th>Created At</th>
+          <th>Updated At</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let emp of employees">
+          <td>{{ emp.id }}</td>
+          <td>{{ emp.name }}</td>
+          <td>{{ emp.email }}</td>
+          <td>{{ emp.department }}</td>
+          <td>{{ emp.createdAt }}</td>
+          <td>{{ emp.updatedAt }}</td>
+          <td>
+            <button class="action-btn edit-btn">
+              <span>&#9998;</span>
+            </button>
+            <button class="action-btn delete-btn">
+              <span>&#128465;</span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
